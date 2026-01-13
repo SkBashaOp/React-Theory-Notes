@@ -1,0 +1,41 @@
+React is a open-source JavaScript library developed by Meta used for building User Interfaces (UI), especially single-page applications (SPA).
+Its main idea: UI = f(State)
+Meaning: UI updates automatically whenever the state changes.
+In 2026, React has moved into a "Compiler-First" and "Server-First" era. It is no longer just a library for the browser; 
+it is a full-stack architecture that allows you to run code on both the server and the client seamlessly.
+
+1. State Hooks (The "Memory" of your app)
+useState: Stores simple values (strings, booleans, objects).
+useReducer: Best for complex state logic where the next state depends on the previous one.
+useActionState: (Newer) Specifically for managing state during form submissions and actions.
+
+2. Effect Hooks (The "Triggers")
+useEffect: Runs code after the component renders (API calls, setting up subscriptions).
+useLayoutEffect: Runs before the browser repaints the screen (useful for measuring elements).
+
+3. Context & Ref Hooks (The "Connections")
+useContext: Grabs data from a "Context Provider" so you don't have to pass props through every single level.
+useRef: Holds a direct reference to a DOM element or a value that doesn't trigger a re-render.
+
+4. Performance Hooks (Now largely automated)
+useTransition: Tells React that an update is "non-urgent," keeping the UI responsive while it processes.
+useDeferredValue: Defers updating a non-critical part of the UI.
+
+JSX combined the power and expressiveness of JavaScript with the readability and accessibility of HTML
+How you do something --Imperative trace the execution of program how it runs
+what you do --Declarative
+Many declarative APis have some sort of imperative implementation
+Abstract away most imperative code example SQL HTML CSS 
+Expectations of developer diverse from the reality of the program --BUG
+
+
+What makes a function unpredictable?
+--Sideeffects
+--Inconsistent outputs(Function should have defined output)
+Pure functions
+
+
+React Elements Have first letter Capital and HTML elements are small casing 
+Components are just Functions
+
+
